@@ -4,7 +4,7 @@ import moptro from '../assets/moptro.png'
 
 const Header = () => {
   return (
-    <div className='m-3'>
+    <div className=''>
         <div className='flex items-end justify-end '>
             <img src={contact} alt="" />
         </div>

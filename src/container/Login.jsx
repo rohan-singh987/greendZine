@@ -31,7 +31,7 @@ const Login = ({ setLogin }) => {
                         required={true}
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
-                        className='bg-[#1F191966] outline-none'
+                        className='bg-transparent outline-none'
                     />
                 </div>
                 <div className='inputBox my-4 rounded-xl px-5 py-2'>
@@ -39,7 +39,7 @@ const Login = ({ setLogin }) => {
                         required={true}
                         value={password}
                         onChange={(e) => setPassword(e.target.value)}
-                        className='bg-[#1F191966] outline-none'
+                        className='bg-transparent outline-none'
                     />
                 </div>
 
